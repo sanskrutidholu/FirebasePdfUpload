@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "636453415822",
+    "project_id": "fir-pdfupload-61052",
+    "storage_bucket": "fir-pdfupload-61052.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:636453415822:android:0fea6c9a366cf783fc52df",
+        "android_client_info": {
+          "package_name": "com.myprojects.firebasepdfupload"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "636453415822-27eqcde4prjerqal6hb5h033929s1c59.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.myprojects.firebasepdfupload",
+            "certificate_hash": "137f90a290fea6717192a48fffedbc610293c2d4"
+          }
+        },
+        {
+          "client_id": "636453415822-d6bho62l2hfs8qlplgvilmn7u0c3ba6e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD1xVuWUX8TQdVgbnWX6_SYpfXic-FLBXo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "636453415822-d6bho62l2hfs8qlplgvilmn7u0c3ba6e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
