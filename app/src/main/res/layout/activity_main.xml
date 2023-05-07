@@ -8,10 +8,10 @@
 
     <LinearLayout
         android:id="@+id/llphone"
-        android:orientation="vertical"
-        android:layout_centerInParent="true"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical">
 
         <EditText
             android:id="@+id/idEdtPhoneNumber"
@@ -24,11 +24,11 @@
             android:inputType="phone" />
 
         <Button
-            android:layout_gravity="center"
             android:id="@+id/idBtnGetOtp"
             android:layout_width="150dp"
             android:layout_height="wrap_content"
             android:layout_below="@id/idEdtPhoneNumber"
+            android:layout_gravity="center"
             android:layout_margin="10dp"
             android:text="Get OTP"
             android:textAllCaps="false" />

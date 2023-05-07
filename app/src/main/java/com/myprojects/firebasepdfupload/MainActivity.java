@@ -69,6 +69,8 @@ public class MainActivity extends AppCompatActivity {
         @Override
         public void onCodeSent(@NonNull String s, @NonNull PhoneAuthProvider.ForceResendingToken forceResendingToken) {
             super.onCodeSent(s, forceResendingToken);
+            llnumber.setVisibility(View.GONE);
+            llotp.setVisibility(View.VISIBLE);
             vId = s;
         }
 
@@ -76,9 +78,9 @@ public class MainActivity extends AppCompatActivity {
         public void onVerificationCompleted(@NonNull PhoneAuthCredential phoneAuthCredential) {
            String code = phoneAuthCredential.getSmsCode();
             if (code != null){
-                llnumber.setVisibility(View.GONE);
-                llotp.setVisibility(View.VISIBLE);
-                et_otp.setText(code);
+//                llnumber.setVisibility(View.GONE);
+//                llotp.setVisibility(View.VISIBLE);
+//                et_otp.setText(code);
                 verifyCode(code);
             }
         }
